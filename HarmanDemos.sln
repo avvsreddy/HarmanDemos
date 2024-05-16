@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainerTraineeApp", "Traine
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabNRef", "LabNRef\LabNRef.csproj", "{D53030E4-F2C9-4561-B3B0-2833E8709F99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDELangLab", "IDELangLab\IDELangLab.csproj", "{B296036A-34A2-4E54-8D6A-AB439660DC33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D53030E4-F2C9-4561-B3B0-2833E8709F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D53030E4-F2C9-4561-B3B0-2833E8709F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D53030E4-F2C9-4561-B3B0-2833E8709F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B296036A-34A2-4E54-8D6A-AB439660DC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B296036A-34A2-4E54-8D6A-AB439660DC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B296036A-34A2-4E54-8D6A-AB439660DC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B296036A-34A2-4E54-8D6A-AB439660DC33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
