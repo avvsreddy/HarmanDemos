@@ -16,7 +16,7 @@
                 acc.IsActive = true;
 
                 acc.Deposit(4000);
-                acc.Withdraw(4000, 1234);
+                //acc.Withdraw(4000, 1234);
                 Console.WriteLine("Transaction is success");
             }
             catch (Exception ex)
