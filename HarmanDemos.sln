@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainerTraineeApp", "TrainerTraineeApp\TrainerTraineeApp.csproj", "{941C8A9F-F09E-4D2E-9F96-6A007F506D4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainerTraineeApp", "TrainerTraineeApp\TrainerTraineeApp.csproj", "{941C8A9F-F09E-4D2E-9F96-6A007F506D4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabNRef", "LabNRef\LabNRef.csproj", "{D53030E4-F2C9-4561-B3B0-2833E8709F99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabNRef", "LabNRef\LabNRef.csproj", "{D53030E4-F2C9-4561-B3B0-2833E8709F99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDELangLab", "IDELangLab\IDELangLab.csproj", "{B296036A-34A2-4E54-8D6A-AB439660DC33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDELangLab", "IDELangLab\IDELangLab.csproj", "{B296036A-34A2-4E54-8D6A-AB439660DC33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculatorApp", "SimpleCalculatorApp\SimpleCalculatorApp.csproj", "{D5EB1611-7240-4CF5-81F6-C79E36B1E04C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCalculatorApp", "SimpleCalculatorApp\SimpleCalculatorApp.csproj", "{D5EB1611-7240-4CF5-81F6-C79E36B1E04C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathCalculator", "MathCalculator\MathCalculator.csproj", "{E073B8E1-2D22-49AF-8333-B04F9660CB6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathCalculator", "MathCalculator\MathCalculator.csproj", "{E073B8E1-2D22-49AF-8333-B04F9660CB6F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calculator Application", "Calculator Application", "{1CE123B2-8569-4518-8C58-31BAEF38FE56}"
 EndProject
@@ -19,7 +19,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Logic", "Prese
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Logic", "Business Logic", "{287B76B6-5433-479F-9FDB-9AF95E9C3EBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWinFormsApp", "CalculatorWinFormsApp\CalculatorWinFormsApp.csproj", "{C2DD02B7-44BD-428C-9A75-D5089325E9F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorWinFormsApp", "CalculatorWinFormsApp\CalculatorWinFormsApp.csproj", "{C2DD02B7-44BD-428C-9A75-D5089325E9F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingAppConsole", "BankingAppConsole\BankingAppConsole.csproj", "{A474B426-C015-4146-80D3-C1DBE962F3EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{C2DD02B7-44BD-428C-9A75-D5089325E9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2DD02B7-44BD-428C-9A75-D5089325E9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2DD02B7-44BD-428C-9A75-D5089325E9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A474B426-C015-4146-80D3-C1DBE962F3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A474B426-C015-4146-80D3-C1DBE962F3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A474B426-C015-4146-80D3-C1DBE962F3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A474B426-C015-4146-80D3-C1DBE962F3EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
