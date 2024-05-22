@@ -14,9 +14,10 @@ namespace POSCasestudy
 
     public class TaxCalculatorFactory
     {
-
+        // singleton
         public static readonly TaxCalculatorFactory Instance = new TaxCalculatorFactory();
 
+        // singleton
         private TaxCalculatorFactory()
         {
 
@@ -62,6 +63,8 @@ namespace POSCasestudy
             // Payment
         }
     }
+
+    // strategy
 
     public interface ITaxCalculatorStrategy
     {
@@ -114,4 +117,27 @@ namespace POSCasestudy
     }
 
 
+
+
+    public class USTaxCalculator
+    {
+        public float ComputeTax(float amount)
+        {
+            // us tax calculation logic
+            Console.WriteLine("Using US Tax Calculator");
+            return 89.56f;
+        }
+
+    }
+
+
+    // adapter
+    public class USTaxCalculatorAdapter : ITaxCalculatorStrategy
+    {
+        private USTaxCalculator usTax = new USTaxCalculator();
+        public double CalculateTax(double amount)
+        {
+            return (double)usTax.ComputeTax((float)amount);
+        }
+    }
 }
