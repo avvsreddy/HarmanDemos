@@ -21,41 +21,51 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Logic", "Business 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorWinFormsApp", "CalculatorWinFormsApp\CalculatorWinFormsApp.csproj", "{C2DD02B7-44BD-428C-9A75-D5089325E9F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingAppConsole", "BankingAppConsole\BankingAppConsole.csproj", "{A474B426-C015-4146-80D3-C1DBE962F3EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankingAppConsole", "BankingAppConsole\BankingAppConsole.csproj", "{A474B426-C015-4146-80D3-C1DBE962F3EE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delegates Demo", "Delegates Demo", "{F275182A-FD4A-4FCD-9E56-9C5E7EF16CD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesBasicsDemo1", "DelegatesBasicsDemo1\DelegatesBasicsDemo1.csproj", "{1A9B0DB0-1C0B-4815-9E5F-2EE6AA4A2460}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesBasicsDemo1", "DelegatesBasicsDemo1\DelegatesBasicsDemo1.csproj", "{1A9B0DB0-1C0B-4815-9E5F-2EE6AA4A2460}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesDemo2", "DelegatesDemo2\DelegatesDemo2.csproj", "{BA7871AB-9EFD-4D59-8348-0360A79FC5B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesDemo2", "DelegatesDemo2\DelegatesDemo2.csproj", "{BA7871AB-9EFD-4D59-8348-0360A79FC5B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesDemo3", "DelegatesDemo3\DelegatesDemo3.csproj", "{F1D43163-4554-42AE-AB5C-A245010746B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesDemo3", "DelegatesDemo3\DelegatesDemo3.csproj", "{F1D43163-4554-42AE-AB5C-A245010746B6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Collections Demo", "Collections Demo", "{9002DB21-05F0-4D28-8198-03F8F655B4AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsDemo1", "CollectionsDemo1\CollectionsDemo1.csproj", "{8218A143-4C8F-441C-90AE-FB36EA5E7DF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionsDemo1", "CollectionsDemo1\CollectionsDemo1.csproj", "{8218A143-4C8F-441C-90AE-FB36EA5E7DF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicCollectionDemo1", "DynamicCollectionDemo1\DynamicCollectionDemo1.csproj", "{9D17968E-AFFB-4085-88F4-05C347F9AB75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicCollectionDemo1", "DynamicCollectionDemo1\DynamicCollectionDemo1.csproj", "{9D17968E-AFFB-4085-88F4-05C347F9AB75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicCollectionDemo2", "DynamicCollectionDemo2\DynamicCollectionDemo2.csproj", "{2281B393-E9A2-4AD5-A121-8827D360C1F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicCollectionDemo2", "DynamicCollectionDemo2\DynamicCollectionDemo2.csproj", "{2281B393-E9A2-4AD5-A121-8827D360C1F1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Language New Features", "Language New Features", "{00363740-A02E-49D2-B533-C3EBEF17286F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaguageEnhancements", "LaguageEnhancements\LaguageEnhancements.csproj", "{C895B2EF-9DF0-418C-BBA5-2E77C3BC7CE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LaguageEnhancements", "LaguageEnhancements\LaguageEnhancements.csproj", "{C895B2EF-9DF0-418C-BBA5-2E77C3BC7CE2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LINQ Demos", "LINQ Demos", "{F6C7F19D-0301-4031-92C6-BC7AF84B3DC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqDemo1", "LinqDemo1\LinqDemo1.csproj", "{CDFF8B50-EBA2-4D60-A97A-93C8CD0599BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqDemo1", "LinqDemo1\LinqDemo1.csproj", "{CDFF8B50-EBA2-4D60-A97A-93C8CD0599BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqDemo2", "LinqDemo2\LinqDemo2.csproj", "{26EAD071-2794-4D22-9AE9-33FFB3D60655}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqDemo2", "LinqDemo2\LinqDemo2.csproj", "{26EAD071-2794-4D22-9AE9-33FFB3D60655}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqDemo3", "LinqDemo3\LinqDemo3.csproj", "{89EF1CB2-6554-41DC-B503-2C10FF9FBE2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqDemo3", "LinqDemo3\LinqDemo3.csproj", "{89EF1CB2-6554-41DC-B503-2C10FF9FBE2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqDemo4", "LinqDemo4\LinqDemo4.csproj", "{FB7319F2-E8AB-4061-98DE-94947065CD03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqDemo4", "LinqDemo4\LinqDemo4.csproj", "{FB7319F2-E8AB-4061-98DE-94947065CD03}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design Patterns Demo", "Design Patterns Demo", "{99F5B22F-56CA-4D90-9C6A-95359E73E97F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSCasestudy", "POSCasestudy\POSCasestudy.csproj", "{9A6821D5-2FD2-42C7-A237-3BF8FE7DC350}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POSCasestudy", "POSCasestudy\POSCasestudy.csproj", "{9A6821D5-2FD2-42C7-A237-3BF8FE7DC350}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Testing Demos", "Unit Testing Demos", "{B15BA603-1FF3-4317-AB10-03BDAC7E60A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App Code", "App Code", "{DE9BF841-9050-4D79-91A3-412963609299}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Testing Code", "Unit Testing Code", "{D6DC14A5-4DC4-4C8E-8889-51229B63492D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApp.Business", "BankApp.Business\BankApp.Business.csproj", "{57CFBE4C-37A4-42CF-8738-8708B95FE8CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApp.Business.Test", "BankApp.Business.Test\BankApp.Business.Test.csproj", "{E89C1BA5-52AA-49A8-BAC8-BCFC16FFF4FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -139,6 +149,14 @@ Global
 		{9A6821D5-2FD2-42C7-A237-3BF8FE7DC350}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A6821D5-2FD2-42C7-A237-3BF8FE7DC350}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A6821D5-2FD2-42C7-A237-3BF8FE7DC350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57CFBE4C-37A4-42CF-8738-8708B95FE8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CFBE4C-37A4-42CF-8738-8708B95FE8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CFBE4C-37A4-42CF-8738-8708B95FE8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CFBE4C-37A4-42CF-8738-8708B95FE8CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E89C1BA5-52AA-49A8-BAC8-BCFC16FFF4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E89C1BA5-52AA-49A8-BAC8-BCFC16FFF4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E89C1BA5-52AA-49A8-BAC8-BCFC16FFF4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E89C1BA5-52AA-49A8-BAC8-BCFC16FFF4FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -161,6 +179,10 @@ Global
 		{89EF1CB2-6554-41DC-B503-2C10FF9FBE2A} = {F6C7F19D-0301-4031-92C6-BC7AF84B3DC4}
 		{FB7319F2-E8AB-4061-98DE-94947065CD03} = {F6C7F19D-0301-4031-92C6-BC7AF84B3DC4}
 		{9A6821D5-2FD2-42C7-A237-3BF8FE7DC350} = {99F5B22F-56CA-4D90-9C6A-95359E73E97F}
+		{DE9BF841-9050-4D79-91A3-412963609299} = {B15BA603-1FF3-4317-AB10-03BDAC7E60A2}
+		{D6DC14A5-4DC4-4C8E-8889-51229B63492D} = {B15BA603-1FF3-4317-AB10-03BDAC7E60A2}
+		{57CFBE4C-37A4-42CF-8738-8708B95FE8CE} = {DE9BF841-9050-4D79-91A3-412963609299}
+		{E89C1BA5-52AA-49A8-BAC8-BCFC16FFF4FB} = {D6DC14A5-4DC4-4C8E-8889-51229B63492D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {217C784C-8C71-428E-80A7-138361ABBA7E}
