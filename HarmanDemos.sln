@@ -63,15 +63,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App Code", "App Code", "{DE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Testing Code", "Unit Testing Code", "{D6DC14A5-4DC4-4C8E-8889-51229B63492D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApp.Business", "BankApp.Business\BankApp.Business.csproj", "{57CFBE4C-37A4-42CF-8738-8708B95FE8CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankApp.Business", "BankApp.Business\BankApp.Business.csproj", "{57CFBE4C-37A4-42CF-8738-8708B95FE8CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApp.Business.Test", "BankApp.Business.Test\BankApp.Business.Test.csproj", "{E89C1BA5-52AA-49A8-BAC8-BCFC16FFF4FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankApp.Business.Test", "BankApp.Business.Test\BankApp.Business.Test.csproj", "{E89C1BA5-52AA-49A8-BAC8-BCFC16FFF4FB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EF Demos", "EF Demos", "{F1DE144D-BAEC-47EB-BC1A-0D001FA05F27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsCatelogApp", "ProductsCatelogApp\ProductsCatelogApp.csproj", "{336BAB8F-043F-45B0-9AB1-07A720810EAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductsCatelogApp", "ProductsCatelogApp\ProductsCatelogApp.csproj", "{336BAB8F-043F-45B0-9AB1-07A720810EAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsManagementApp", "ContactsManagementApp\ContactsManagementApp.csproj", "{A3BB83EC-9504-4215-80B3-DAE0D9E127F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactsManagementApp", "ContactsManagementApp\ContactsManagementApp.csproj", "{A3BB83EC-9504-4215-80B3-DAE0D9E127F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{54A08E7A-42E0-4BF4-B422-027D40BDD7C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiAuth", "WebApiAuth\WebApiAuth.csproj", "{336B85CA-2917-409C-A51B-1270E44FD73D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDbFirstDemo", "EFDbFirstDemo\EFDbFirstDemo.csproj", "{C67C01D4-6135-40E5-8E77-81580465B4A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +177,14 @@ Global
 		{A3BB83EC-9504-4215-80B3-DAE0D9E127F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3BB83EC-9504-4215-80B3-DAE0D9E127F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3BB83EC-9504-4215-80B3-DAE0D9E127F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336B85CA-2917-409C-A51B-1270E44FD73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336B85CA-2917-409C-A51B-1270E44FD73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336B85CA-2917-409C-A51B-1270E44FD73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336B85CA-2917-409C-A51B-1270E44FD73D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C67C01D4-6135-40E5-8E77-81580465B4A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C67C01D4-6135-40E5-8E77-81580465B4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C67C01D4-6135-40E5-8E77-81580465B4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C67C01D4-6135-40E5-8E77-81580465B4A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -199,6 +213,8 @@ Global
 		{E89C1BA5-52AA-49A8-BAC8-BCFC16FFF4FB} = {D6DC14A5-4DC4-4C8E-8889-51229B63492D}
 		{336BAB8F-043F-45B0-9AB1-07A720810EAD} = {F1DE144D-BAEC-47EB-BC1A-0D001FA05F27}
 		{A3BB83EC-9504-4215-80B3-DAE0D9E127F0} = {F1DE144D-BAEC-47EB-BC1A-0D001FA05F27}
+		{336B85CA-2917-409C-A51B-1270E44FD73D} = {54A08E7A-42E0-4BF4-B422-027D40BDD7C3}
+		{C67C01D4-6135-40E5-8E77-81580465B4A5} = {F1DE144D-BAEC-47EB-BC1A-0D001FA05F27}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {217C784C-8C71-428E-80A7-138361ABBA7E}

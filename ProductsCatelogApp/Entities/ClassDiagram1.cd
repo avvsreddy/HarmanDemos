@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ProductsCatelogApp.Entities.Product">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAQAAAIAAAAAAAAQAAAAAAAAAAAAAAAABCAA=</HashCode>
+      <FileName>Entities\Product.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Category" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Suppliers" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ProductsCatelogApp.Entities.Category">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAACAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Entities\Category.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Products" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ProductsCatelogApp.Entities.Supplier">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECAAAAAAAAgAQ=</HashCode>
+      <FileName>Entities\Supplier.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Products" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ProductsCatelogApp.Entities.Person">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAAAQAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProductsCatelogApp.Entities.Customer">
+    <Position X="9" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgAAAAAAAAA=</HashCode>
+      <FileName>Entities\Customer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Address" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ProductsCatelogApp.Entities.Address">
+    <Position X="9" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAAAAIABAAAAAA=</HashCode>
+      <FileName>Entities\Address.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Arial" Size="10" />
+</ClassDiagram>
