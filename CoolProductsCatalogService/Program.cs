@@ -62,11 +62,13 @@ namespace CoolProductsCatalogService
 
             app.UseHttpsRedirection();
 
-            app.UseAuthorization();
+
 
             // Step 2 for ODATA
             //app.MapControllers();
             app.UseRouting();
+
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

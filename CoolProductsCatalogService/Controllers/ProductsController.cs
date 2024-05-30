@@ -2,7 +2,6 @@
 using CoolProductsCatalogService.Model.Entities;
 using Microsoft.AspNet.OData;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CoolProductsCatalogService.Controllers
@@ -10,7 +9,7 @@ namespace CoolProductsCatalogService.Controllers
 
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class ProductsController : ControllerBase
     {
         private readonly ProductsDbContext db;
@@ -25,7 +24,7 @@ namespace CoolProductsCatalogService.Controllers
         // Action Methods
         [HttpGet]
         [EnableQuery]
-        [EnableCors()]
+        //[EnableCors()]
         public IQueryable<Product> GetProducts()
         {
             return db.Products.AsQueryable();
@@ -37,7 +36,7 @@ namespace CoolProductsCatalogService.Controllers
         [Route("{pid:int}")]
         [ProducesResponseType(404)]
         [ProducesResponseType(200)]
-
+        [Authorize]
         public IActionResult GetProduct(int pid)
         {
             var product = db.Products.Find(pid);
@@ -55,7 +54,7 @@ namespace CoolProductsCatalogService.Controllers
         //2.  GET .../api/products/category/{mobiles}
         [HttpGet]
         [Route("category/{category:alpha}")]
-        [AllowAnonymous]
+        //[AllowAnonymous]
         public IActionResult GetProductsByCategory(string category)
         {
             var products = db.Products.Where(p => p.Category == category).ToList();
