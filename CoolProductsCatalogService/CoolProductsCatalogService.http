@@ -1,0 +1,6 @@
+@CoolProductsCatalogService_HostAddress = http://localhost:5042
+
+GET {{CoolProductsCatalogService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
