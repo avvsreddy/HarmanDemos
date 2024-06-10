@@ -55,6 +55,7 @@ namespace CoolProductsCatalogService.Controllers
         [HttpGet]
         [Route("category/{category:alpha}")]
         //[AllowAnonymous]
+        [Authorize(Roles = "superadmin")]
         public IActionResult GetProductsByCategory(string category)
         {
             var products = db.Products.Where(p => p.Category == category).ToList();
