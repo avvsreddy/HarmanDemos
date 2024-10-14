@@ -1,6 +1,10 @@
-@CoolProductsCatalogService_HostAddress = http://localhost:5042
+@CoolProductsCatalogService_HostAddress = https://localhost:44320
 
 GET {{CoolProductsCatalogService_HostAddress}}/weatherforecast/
 Accept: application/json
+
+###
+
+GET {{CoolProductsCatalogService_HostAddress}}/api/products
 
 ###
